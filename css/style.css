@@ -1,0 +1,109 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+ font-family:  Arial;
+ background-size: cover;
+ background-color: lightgray;
+ background-image: url('../imagenes/crflag.png');
+ text-align: center;
+ box-sizing: border-box;
+}
+#header 
+{
+    background-color: antiquewhite;
+    height: 150px;
+}
+#mensaje
+{
+    margin-bottom: 14px;
+    text-align: justify;
+    font-size: medium;
+    line-height: 1.5;
+    
+}
+#header #logo
+{
+    float: left;
+    width: 33%;
+    height: 170px;
+    text-align: center;
+
+}
+caption
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+.mensaje
+{
+    margin-bottom: 14px;
+    text-align: justify;
+}
+table
+{
+    background: lightgray; 
+    font-family: arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+img.can
+{
+   max-width: 15%;
+   margin: auto;
+   display: flex;
+}
+
+#fila
+{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.partido
+{
+    width: 50%;
+}
+
+.c
+{
+
+    background-color: lightblue;
+}
+#footer
+{
+    background: lightgray; 
+    display: flex;
+    text-align: center;
+    font-size: medium;
+}
+#agrupar 
+{ 
+    width: 960px; 
+    margin: 15px auto; 
+    text-align: center; 
+    background-color: lightgray;
+    
+}
+
+#lista
+{
+    background-color: lightgray;
+    font-style: italic;
+}
+#info .cantid
+{
+    float: right;
+    width: 30%;
+    height: 170px;
+    text-align: center;
+}
